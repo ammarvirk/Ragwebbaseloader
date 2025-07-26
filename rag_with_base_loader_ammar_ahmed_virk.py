@@ -22,7 +22,7 @@ loader = WebBaseLoader(urls)
 docs = loader.load()
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"  # 🔐 Replace with your OpenAI API Key
+os.environ["OPENAI_API_KEY"] = ""  # 🔐 Replace with your OpenAI API Key
 
 import os
 from langchain.vectorstores import FAISS
